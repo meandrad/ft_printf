@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: macmac <macmac@student.42.fr>              +#+  +:+       +#+        */
+/*   By: meandrad <meandrad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 21:29:38 by macmac            #+#    #+#             */
-/*   Updated: 2024/11/07 23:50:31 by macmac           ###   ########.fr       */
+/*   Updated: 2024/11/08 20:24:22 by meandrad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,16 +15,17 @@
 int	ft_putnbr(int num)
 {
 	int	count;
-	long	num;
+	long	number;
 
 	count = 0;
+	number = num;
 	if (num < 0)
 	{
 		count += ft_putchar('-');
-		num *= -1;
+		number *= -1;
 	}
-	if (num >= 10)
-		count += ft_putnbr(num / 10);
-	count += ft_putchar((num % 10) + '0');
+	if (number >= 10)
+		count += ft_putnbr(number / 10);
+	count += ft_putchar((number % 10) + '0');
 	return (count);
 }
