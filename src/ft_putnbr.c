@@ -15,6 +15,7 @@
 int	ft_putnbr(int num)
 {
 	int	count;
+	lont	num;
 
 	count = 0;
 	if (num < 0)
