@@ -6,7 +6,7 @@
 /*   By: meandrad <meandrad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 21:29:38 by macmac            #+#    #+#             */
-/*   Updated: 2024/11/08 20:24:22 by meandrad         ###   ########.fr       */
+/*   Updated: 2024/11/08 21:32:05 by meandrad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_putnbr(int num)
 {
-	int	count;
+	int		count;
 	long	number;
 
 	count = 0;
