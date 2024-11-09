@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putptr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: macmac <macmac@student.42.fr>              +#+  +:+       +#+        */
+/*   By: meandrad <meandrad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 22:29:18 by macmac            #+#    #+#             */
-/*   Updated: 2024/11/07 23:50:35 by macmac           ###   ########.fr       */
+/*   Updated: 2024/11/08 22:29:44 by meandrad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <../includes/ft_printf.h>
+#include "../includes/ft_printf.h"
 
 int	ft_putptr(unsigned long ptr)
 {

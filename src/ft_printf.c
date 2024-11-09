@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: macmac <macmac@student.42.fr>              +#+  +:+       +#+        */
+/*   By: meandrad <meandrad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 19:21:26 by macmac            #+#    #+#             */
-/*   Updated: 2024/11/08 00:38:46 by macmac           ###   ########.fr       */
+/*   Updated: 2024/11/08 22:38:29 by meandrad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <../includes/ft_printf.h>
+#include "../includes/ft_printf.h"
 
 static int	check_pointer(unsigned long ptr)
 {
@@ -71,3 +71,6 @@ int	ft_printf(const char *string, ...)
 	va_end(args);
 	return (count);
 }
+
+
+// meu nome e , tenho anos, nome, idade

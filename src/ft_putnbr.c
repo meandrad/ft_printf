@@ -6,11 +6,11 @@
 /*   By: meandrad <meandrad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 21:29:38 by macmac            #+#    #+#             */
-/*   Updated: 2024/11/08 21:32:05 by meandrad         ###   ########.fr       */
+/*   Updated: 2024/11/08 22:32:17 by meandrad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <../includes/ft_printf.h>
+#include "../includes/ft_printf.h"
 
 int	ft_putnbr(int num)
 {

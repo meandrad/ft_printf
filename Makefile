@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: macmac <macmac@student.42.fr>              +#+  +:+       +#+         #
+#    By: meandrad <meandrad@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/07 23:52:20 by macmac            #+#    #+#              #
-#    Updated: 2024/11/08 00:22:28 by macmac           ###   ########.fr        #
+#    Updated: 2024/11/08 22:39:28 by meandrad         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,6 @@ CFLAGS = -Wall -Wextra -Werror
 
 SRC_DIR = src
 INCLUDE_DIR = includes
-OBJ_DIR = objs
 
 SRC_FILES = $(SRC_DIR)/ft_putchar.c \
             $(SRC_DIR)/ft_putstr.c \
