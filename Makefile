@@ -6,14 +6,11 @@
 #    By: meandrad <meandrad@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/07 23:52:20 by macmac            #+#    #+#              #
-#    Updated: 2024/11/12 21:21:39 by meandrad         ###   ########.fr        #
+#    Updated: 2024/11/12 21:31:51 by meandrad         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
-
-CC = cc
-CFLAGS = -Wall -Wextra -Werror
 
 SRC_FILES = src/ft_putchar.c \
             src/ft_putstr.c \
@@ -26,6 +23,8 @@ SRC_FILES = src/ft_putchar.c \
 INCLUDE_DIR = includes
 OBJS = $(SRC_FILES:.c=.o)
 
+CC = cc
+CFLAGS = -Wall -Wextra -Werror
 RM = rm -f
 
 all: $(NAME)
