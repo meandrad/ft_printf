@@ -6,11 +6,11 @@
 /*   By: meandrad <meandrad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 19:21:26 by macmac            #+#    #+#             */
-/*   Updated: 2024/11/12 20:00:11 by meandrad         ###   ########.fr       */
+/*   Updated: 2024/11/12 20:30:29 by meandrad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 static int	check_pointer(unsigned long ptr)
 {

@@ -1,28 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: meandrad <meandrad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/07 21:24:30 by macmac            #+#    #+#             */
-/*   Updated: 2024/11/12 20:00:29 by meandrad         ###   ########.fr       */
+/*   Created: 2024/11/07 23:25:02 by macmac            #+#    #+#             */
+/*   Updated: 2024/11/12 20:30:34 by meandrad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 
-int	ft_putstr(const char *string)
-{
-	int	i;
+# include <stdarg.h>
 
-	i = 0;
-	if (!string)
-		return (ft_putstr("(null)"));
-	while (string[i] != '\0')
-	{
-		ft_putchar(string[i]);
-		i++;
-	}	
-	return (i);
-}
+int	ft_putchar(int ch);
+int	ft_putstr(const char *string);
+int	ft_putnbr(int num);
+int	ft_putunbr(unsigned int num);
+int	ft_putptr(unsigned long ptr);
+int	ft_putlhexa(unsigned int num);
+int	ft_putuhexa(unsigned int num);
+int	ft_printf(const char *string, ...);
+
+#endif
