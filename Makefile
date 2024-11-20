@@ -30,10 +30,10 @@ RM = rm -f
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar rcs $(NAME) $(OBJS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -I$(INCLUDE_DIR) -c $< -o $@
+	ar rcs $(NAME) $(OBJS)
 
 clean:
 	$(RM) $(OBJS)
