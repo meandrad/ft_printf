@@ -33,7 +33,7 @@ $(NAME): $(OBJS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -I$(INCLUDE_DIR) -c $< -o $@
-	ar rcs $(NAME) $(OBJS)
+	ar rcs $(NAME) $@
 
 clean:
 	$(RM) $(OBJS)
