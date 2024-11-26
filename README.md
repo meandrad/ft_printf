@@ -2,7 +2,7 @@
 
 This repository contains a custom implementation of the `printf` function in C. The `ft_printf` function formats and prints data types such as strings, numbers, and pointers to the standard output or a specified file descriptor.
 
-## 
+## Flags
 - **%c**: Character
 - **%s**: String
 - **%p**: Pointer
